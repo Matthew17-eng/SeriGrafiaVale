@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SeriGrafiaVALE</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Catálogo de productos SeriGrafiaVALE: tomatodos, lapiceros, lápiz, agendas, pelotas antiestrés, llaveros, popsockets.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">SeriGrafia<span>VALE</span></h1>
+      <nav class="socials">
+        <a href="https://facebook.com/serigrafiavale" target="_blank" aria-label="Facebook">Facebook</a>
+        <a href="https://instagram.com/serigrafiavale" target="_blank" aria-label="Instagram">Instagram</a>
+        <a href="mailto:serigrafiaVale@gmail.com" aria-label="Email">serigrafiaVale@gmail.com</a>
+      </nav>
+    </div>
+  
+<div class="social-icons">
+  <a href="#" target="_blank"><img src="logo/concepto-icono-whatsapp_23-2147900930.jpg" alt="WhatsApp"></a>
+  <a href="#" target="_blank"><img src="logo/icono-logotipo-vector-instagram-logotipo-redes-sociales_901408-392.jpg" alt="Instagram"></a>
+  <a href="#" target="_blank"><img src="logo/ilustracion-vectorial-icono-redes-sociales-facebook_534308-21672.jpg" alt="Facebook"></a>
+  <a href="#" target="_blank"><img src="logo/ca27f615c790f1af43f2dd564599bf6a.jpg" alt="Gmail"></a>
+</div>
+
+</header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2>Catálogo elegante — Productos personalizados y promocionales</h2>
+        <p>Tomatodos, lapiceros, lápiz, agendas, pelotas antiestrés, llaveros y popsockets.</p>
+      </div>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Buscar producto..." aria-label="Buscar producto">
+        <select id="filter" aria-label="Filtrar por">
+          <option value="all">Todos</option>
+          <option value="tomatodos">Tomatodos</option>
+          <option value="lapiceros">Lapiceros</option>
+          <option value="agendas">Agendas</option>
+          <option value="accesorios">Accesorios</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <!-- Product cards inserted here -->
+    </section>
+
+    <section class="contact">
+      <h3>Contacta con nosotros</h3>
+      <p>WhatsApp: <a href="https://wa.me/51987654321" target="_blank">+51 987 654 321</a></p>
+      <p>Facebook: <a href="https://facebook.com/serigrafiavale" target="_blank">SeriGrafiaVale</a></p>
+      <p>Instagram: <a href="https://instagram.com/serigrafiavale" target="_blank">SeriGrafiaVale</a></p>
+      <p>Email: <a href="mailto:serigrafiaVale.com">serigrafiaVale@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> SeriGrafiaVALE — Todos los derechos reservados.</p>
+      <nav class="footer-links">
+        <a href="https://facebook.com/serigrafiavale" target="_blank">Facebook</a>
+        <a href="https://instagram.com/serigrafiavale" target="_blank">Instagram</a>
+      </nav>
+    </div>
+  
+<div class="social-icons">
+  <a href="#" target="_blank"><img src="logo/concepto-icono-whatsapp_23-2147900930.jpg" alt="WhatsApp"></a>
+  <a href="#" target="_blank"><img src="logo/icono-logotipo-vector-instagram-logotipo-redes-sociales_901408-392.jpg" alt="Instagram"></a>
+  <a href="#" target="_blank"><img src="logo/ilustracion-vectorial-icono-redes-sociales-facebook_534308-21672.jpg" alt="Facebook"></a>
+  <a href="#" target="_blank"><img src="logo/ca27f615c790f1af43f2dd564599bf6a.jpg" alt="Gmail"></a>
+</div>
+
+</footer>
+
+  <!-- WhatsApp floating button -->
+  <a id="wa-float" href="https://wa.me/51987654321" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+      <path fill="currentColor" d="M12.04 2C6.37 2 1.64 6.72 1.64 12.39c0 2.18.66 4.2 1.8 5.93L2 22l3.86-1.01c1.64.9 3.5 1.36 5.18 1.36 5.67 0 10.4-4.72 10.4-10.39C22.44 6.72 17.71 2 12.04 2zm5.54 14.8c-.22.62-1.3 1.18-1.8 1.26-.46.07-1.02.11-2.46-.41-3.31-1.16-5.5-3.99-5.66-4.18-.16-.19-1.21-1.5-1.21-2.86 0-1.36.72-1.99.98-2.27.26-.28.57-.35.82-.35.22 0 .44.01.64.01.23.01.34.03.49.33.15.29.5 1.01.54 1.09.04.08.06.15.01.24-.05.09-.08.15-.12.24-.04.09-.51 1.29-.7 1.78-.19.49-.38.43-.7.74-.33.31-.66.69-.3 1.35.36.65 1.6 2.6 3.45 4.2 2.4 2.08 3.74 2.24 4.25 2.36.51.12.98.1 1.34.06.41-.05 1.33-.54 1.52-1.06.19-.52.19-.97.13-1.06-.06-.09-.22-.15-.45-.27z"/>
+    </svg>
+  </a>
+  <!-- Modal de imagen -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
