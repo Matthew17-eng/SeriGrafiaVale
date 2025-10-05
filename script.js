@@ -7,7 +7,7 @@ const PRODUCTS = [
   { id:5, name:"Pelota Antiestrés", category:"accesorios", price:"S/ 6", img:"pelotas anti estres.jpg", desc:"Pelota para aliviar estrés, personalizable." },
   { id:6, name:"Llaveros de metal", category:"accesorios", price:"S/ 7", img:"llaveros de metal.jpg", desc:"Llaveros de metal con tu diseño." },
   { id:7, name:"Popsocket", category:"accesorios", price:"S/ 15", img:"popsocket.jpg", desc:"Popsocket para celular con impresión." },
-  { id:8, name:"Resaltador", category:"accesorios", price:"S/ 12", img:"resaltador.jpg", desc:"resalatador forma triangular." },
+  { id:8, name:"Resaltador", category:"accesorios", price:"S/ 12", img:"resaltadores.jpg", desc:"resalatador forma triangular." },
 ];
 
 function el(tag, attrs={}, children=[]){
