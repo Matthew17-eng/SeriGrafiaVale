@@ -1,13 +1,13 @@
 // Data for products
 const PRODUCTS = [
-  { id:1, name:"Tomatodo", category:"tomatodos", price:"S/ 25", img:"img/tomatodo.jpg", desc:"Tomatodo , 500ml." },
-  { id:2, name:"Lapicero", category:"lapiceros", price:"S/ 8", img:"img/lapiceros.jpg", desc:"Lapicero personalizado con logo." },
-  { id:3, name:"Lápiz", category:"lapiceros", price:"S/ 1.5", img:"img/lapiz negro.jpg", desc:"Lápiz escolar." },
-  { id:4, name:"Agendas", category:"agendas", price:"S/ 40", img:"img/agendas.jpg", desc:"Agenda A5 con tapa dura y hojas pautadas." },
-  { id:5, name:"Pelota Antiestrés", category:"accesorios", price:"S/ 6", img:"img/pelotas anti estres.jpg", desc:"Pelota para aliviar estrés, personalizable." },
-  { id:6, name:"Llaveros de metal", category:"accesorios", price:"S/ 7", img:"img/llaveros de metal.jpg", desc:"Llaveros de metal con tu diseño." },
-  { id:7, name:"Popsocket", category:"accesorios", price:"S/ 15", img:"img/popsocket.jpg", desc:"Popsocket para celular con impresión." },
-  { id:8, name:"Resaltador", category:"accesorios", price:"S/ 12", img:"img/resaltador.jpg", desc:"resalatador forma triangular." },
+  { id:1, name:"Tomatodo", category:"tomatodos", price:"S/ 25", img:"tomatodo.jpg", desc:"Tomatodo , 500ml." },
+  { id:2, name:"Lapicero", category:"lapiceros", price:"S/ 8", img:"lapiceros.jpg", desc:"Lapicero personalizado con logo." },
+  { id:3, name:"Lápiz", category:"lapiceros", price:"S/ 1.5", img:"lapiz negro.jpg", desc:"Lápiz escolar." },
+  { id:4, name:"Agendas", category:"agendas", price:"S/ 40", img:"agendas.jpg", desc:"Agenda A5 con tapa dura y hojas pautadas." },
+  { id:5, name:"Pelota Antiestrés", category:"accesorios", price:"S/ 6", img:"pelotas anti estres.jpg", desc:"Pelota para aliviar estrés, personalizable." },
+  { id:6, name:"Llaveros de metal", category:"accesorios", price:"S/ 7", img:"llaveros de metal.jpg", desc:"Llaveros de metal con tu diseño." },
+  { id:7, name:"Popsocket", category:"accesorios", price:"S/ 15", img:"popsocket.jpg", desc:"Popsocket para celular con impresión." },
+  { id:8, name:"Resaltador", category:"accesorios", price:"S/ 12", img:"resaltador.jpg", desc:"resalatador forma triangular." },
 ];
 
 function el(tag, attrs={}, children=[]){
